@@ -5,8 +5,17 @@
 
 .pageHeader {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   position: relative;
+}
+
+.parallax {
+  width: 100vw;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  display: flex;
+  align-items: flex-end
 }
 
 .appName {
@@ -17,6 +26,14 @@
 
 .backgroundImage {
   z-index: -1;
+  width: 100vw;
+  height: unset !important
+}
+
+.pageRest {
+  width: 100%;
+  height: 200vh;
+  background-image: linear-gradient(to bottom, #52A0BC, rgba(158, 207, 224, .15))
 }
 
 @media (max-width: 600px) {
