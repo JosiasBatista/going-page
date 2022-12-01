@@ -26,7 +26,7 @@ export default function Home() {
             layout="fill"
           />
           </Parallax>
-          <Parallax className={styles.parallax} speed={-55}>
+          <Parallax className={styles.parallax} speed={-40}>
             <Image
             priority
             src="/images/Layer10.svg"
@@ -44,6 +44,7 @@ export default function Home() {
             layout="fill"
           />
           </Parallax>
+
           <Parallax className={styles.parallax} speed={0}>
             <Image
             priority
@@ -53,16 +54,17 @@ export default function Home() {
             layout="fill"
           />
           </Parallax>
-          
+
           <Parallax className={styles.parallax} speed={12.5}>
             <Image
-            priority
-            src="/images/Layer6.svg"
-            className={styles.backgroundImage}
-            alt=""
-            layout="fill"
-          />
+              priority
+              src="/images/Layer6.svg"
+              className={styles.backgroundImage}
+              alt=""
+              layout="fill"
+            />
           </Parallax>
+          
           <Parallax className={styles.parallax} speed={10}>
             <Image
               priority
@@ -73,7 +75,7 @@ export default function Home() {
             />
           </Parallax>
           
-          <Parallax className={styles.parallax} speed={10}>
+          <Parallax className={styles.parallax} speed={12}>
             <Image
               priority
               src="/images/Layer4.svg"
@@ -93,7 +95,7 @@ export default function Home() {
             />
           </Parallax>
           
-          <Parallax className={styles.parallax} speed={15}>
+          <Parallax className={styles.parallax} speed={17.5}>
             <Image
               priority
               src="/images/Layer2.svg"
@@ -103,7 +105,7 @@ export default function Home() {
             />
           </Parallax>
           
-          <Parallax className={styles.parallax} speed={20}>
+          <Parallax className={styles.parallax} speed={30}>
             <Image
               priority
               src="/images/Layer1.svg"
@@ -114,7 +116,12 @@ export default function Home() {
           </Parallax>
         </div>
 
-        <div className={styles.pageRest} />
+        
+        {/* <Parallax className={styles.parallaxRest} speed={20}> */}
+        <div className={styles.pageRest}>
+          <h1>Todos tem um motivo para viajar. Qual é o SEU?</h1>
+        </div>
+        {/* </Parallax> */}
       </main>
     </div>
   )
