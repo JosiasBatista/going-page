@@ -1,0 +1,24 @@
+
+.pageHeader {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.parallax {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  position: absolute;
+  
+}
+
+.backgroundImage {
+  z-index: -1;
+  width: 100vw;
+  height: unset !important;
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+}
