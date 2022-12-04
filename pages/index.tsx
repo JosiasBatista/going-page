@@ -3,6 +3,10 @@ import styles from '../styles/Home.module.css';
 import ParallaxComponent from '../components/parallax';
 import FeatureCard from '../components/featureCard';
 
+import WriteDiary from '../public/animations/write-diary.json';
+import FindDestination from '../public/animations/find-destination.json';
+import DiscoverActivity from '../public/animations/discover-activity.json';
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -21,16 +25,19 @@ export default function Home() {
 
           <section className={styles.appFeatures}>
             <FeatureCard
+              animation={WriteDiary}
               title="Escreva Diários"
               description="Compartilhe suas jornadas através de diários.
               Compartilhe com o mundo em diários públicos ou guarde seus momentos em diários privados."
             />
             <FeatureCard
+              animation={FindDestination}
               title="Encontre Destinos"
               description="Compartilhe suas jornadas através de diários.
               Compartilhe com o mundo em diários públicos ou guarde seus momentos em diários privados."
             />
             <FeatureCard
+              animation={DiscoverActivity}
               title="Descubra Atividades"
               description="Compartilhe suas jornadas através de diários.
               Compartilhe com o mundo em diários públicos ou guarde seus momentos em diários privados."
