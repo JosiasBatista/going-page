@@ -1,0 +1,33 @@
+.featureCard {
+  width: 25vw;
+  height: 35vw;
+  border-radius: 10px;
+  background-color: #179DC7;
+  transition: all .25s linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px
+}
+
+.featureCard:hover {
+  height: 37.5vw;
+  border-bottom: 10px solid #FFB042;
+}
+
+.featureTitle {
+  font-family: 'Karla';
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.featureDesc {
+  font-family: 'Karla';
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFF;
+}
