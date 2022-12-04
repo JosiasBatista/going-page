@@ -12,20 +12,18 @@ export default function ParallaxComponent() {
           src="/images/Layer9.svg"
           className={styles.backgroundImage}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="contain"
         />
       </Parallax>
       <Parallax className={styles.parallax} speed={-40}>
         <Image
           priority
           src="/images/Layer10.svg"
-          className={styles.backgroundImage}
+          className={styles.backgroundImageLogo}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="fill"
         />
       </Parallax>
       <Parallax className={styles.parallax} speed={-15}>
@@ -34,9 +32,8 @@ export default function ParallaxComponent() {
           src="/images/Layer8.svg"
           className={styles.backgroundImage}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="contain"
         />
       </Parallax>
 
@@ -46,9 +43,8 @@ export default function ParallaxComponent() {
           src="/images/Layer7.svg"
           className={styles.backgroundImage}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="contain"
         />
       </Parallax>
 
@@ -56,11 +52,10 @@ export default function ParallaxComponent() {
         <Image
           priority
           src="/images/Layer6.svg"
-          className={styles.backgroundImage}
+          className={styles.backgroundImageWater}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="contain"
         />
       </Parallax>
       
@@ -70,9 +65,8 @@ export default function ParallaxComponent() {
           src="/images/Layer5.svg"
           className={styles.backgroundImage}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="contain"
         />
       </Parallax>
       
@@ -82,9 +76,8 @@ export default function ParallaxComponent() {
           src="/images/Layer4.svg"
           className={styles.backgroundImage}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="contain"
         />
       </Parallax>
       
@@ -94,9 +87,8 @@ export default function ParallaxComponent() {
           src="/images/Layer3.svg"
           className={styles.backgroundImage}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="contain"
         />
       </Parallax>
       
@@ -106,9 +98,8 @@ export default function ParallaxComponent() {
           src="/images/Layer2.svg"
           className={styles.backgroundImage}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="contain"
         />
       </Parallax>
       
@@ -118,9 +109,8 @@ export default function ParallaxComponent() {
           src="/images/Layer1.svg"
           className={styles.backgroundImage}
           alt=""
-          // width="0"
-          // height="0"
           layout="fill"
+          objectFit="contain"
         />
       </Parallax>
     </div>
