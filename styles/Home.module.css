@@ -16,7 +16,7 @@
 
 .pageTitle {
   color: #121212;
-  font-size: 35px;
+  font-size: 40px;
   max-width: 45vw;
   text-align: center;
   font-weight: 900;
@@ -30,8 +30,8 @@
 
 .pageSubtitle {
   color: #121212;
-  font-size: 25px;
-  max-width: 45vw;
+  font-size: 24px;
+  max-width: 40vw;
   text-align: center;
   font-weight: 400;
   font-family: 'Karla', sans-serif;
@@ -46,6 +46,54 @@
   width: 100%;
   margin-top: 2.5rem;
   padding-bottom: 5rem;
+}
+
+.pageSection {
+  margin-top: 2vh;
+  text-align: center;
+  width: 100vw;
+}
+
+.sectionTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  color: #121212;
+}
+
+.communityDescCont {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0 24px;
+}
+
+.communityDesc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  color: #121212;
+  text-align: left;
+  width: 25vw;
+}
+
+.communityDesc p {
+  padding-left: 16px
+}
+
+.firstDesc {
+  transform: translate(50%)
+}
+
+.secDesc {
+  transform: translate(150%)
+}
+
+.thirdDesc {
+  transform: translate(250%)
 }
 
 @media (max-width: 1600px) {
