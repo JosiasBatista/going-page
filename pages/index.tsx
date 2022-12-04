@@ -22,6 +22,7 @@ export default function Home() {
 
         <div className={styles.pageRest}>
           <h1 className={styles.pageTitle}>Todos possuem um motivo para viajar. Então me diz, qual é o <b className={styles.boldTitle}>SEU?</b></h1>
+          <span className={styles.pageSubtitle}>Independentemente do seu perfil de viajante, temos as funcionalidades certas para você</span>
 
           <section className={styles.appFeatures}>
             <FeatureCard
@@ -33,16 +34,17 @@ export default function Home() {
             <FeatureCard
               animation={FindDestination}
               title="Encontre Destinos"
-              description="Compartilhe suas jornadas através de diários.
-              Compartilhe com o mundo em diários públicos ou guarde seus momentos em diários privados."
+              description="Encontre os melhores destinos seja qual for o tipo de viagem que você deseja fazer.
+              Viagens em família, românticas ou sozinho, descubra o melhor lugar para tudo!"
             />
             <FeatureCard
               animation={DiscoverActivity}
               title="Descubra Atividades"
-              description="Compartilhe suas jornadas através de diários.
-              Compartilhe com o mundo em diários públicos ou guarde seus momentos em diários privados."
+              description="Não sabe o que fazer nos lugares aonde você vai viajar?
+              Descubra as melhores atividades e programe o que você irá fazer!"
             />
           </section>
+
         </div>
       </main>
     </div>
