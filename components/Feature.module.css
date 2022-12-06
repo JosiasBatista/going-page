@@ -1,7 +1,7 @@
 .featureCard {
   width: 20vw;
-  min-height: 25vw;
   height: auto;
+  min-height: 30vw;
   border-radius: 10px;
   background-color: #179DC7;
   transition: all .3s linear;
@@ -15,7 +15,6 @@
 }
 
 .featureCard:hover {
-  /* height: 32.5vw; */
   transform: scale(1.15);
   border-bottom: 10px solid #FFB042;
 }
@@ -53,11 +52,11 @@
   height: auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .featureCard {
     width: 30vw;
-    min-height: 37.5vw;
     height: auto;
+    min-height: 40vw;
     transition: all .3s linear;
   }
 

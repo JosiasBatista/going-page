@@ -32,6 +32,7 @@ export default function FeatureCard(feature: Feature) {
           loop={false}
           width={300}
           height={100}
+          autoPlay={false}
         />
       </div>
       <strong className={styles.featureTitle}>{feature.title}</strong>
