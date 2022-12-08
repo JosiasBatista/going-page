@@ -54,57 +54,50 @@
   width: 100vw;
 }
 
-.sectionTitle {
-  font-family: 'Montserrat', sans-serif;
+.callToDownload {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  background-image: linear-gradient(to bottom, #FFF, #FFF, #179DC7);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.callTitle {
+  font-family: 'Montserrat';
   font-size: 32px;
   color: #121212;
 }
 
-.communityDescCont {
-  margin-top: 40px;
-  width: 100vw;
-  height: auto;
-  display: grid;
-  justify-content: center;
-  grid-template-areas: "firstDesc . ."
-                       ". secDesc ."
-                       ". . thirdDesc";
-  padding: 0 40px;
-}
-
-.communityDesc {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-family: 'Karla', sans-serif;
-  font-size: 18px;
+.callSubtitle {
+  font-family: 'Karla';
+  font-size: 24px;
   color: #121212;
-  text-align: left;
-  width: 30vw;
+  margin-top: 16px;
 }
 
-.communityDesc p {
-  padding-left: 16px
+.soonText {
+  position: absolute;
+  font-size: 16px;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Karla';
 }
 
-.firstDesc {
-  /* transform: translate(50%) */
-  grid-area: firstDesc
-}
-
-.secDesc {
-  /* transform: translate(150%) */
-  grid-area: secDesc
-}
-
-.thirdDesc {
-  /* transform: translate(250%) */
-  grid-area: thirdDesc
+.storeButton {
+  background: none;
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
 }
 
 @media (max-width: 1600px) {
   .pageTitle {
     margin-top: 10vh !important;
+
   }
 }
 
@@ -113,16 +106,9 @@
     width: 100%;
     flex-direction: column;
   }
-
-  .communityDescCont {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .communityDesc {
-    transform: none;
-    width: 100%;
+  .pageTitle {
+    max-width: 100%;
+    margin-top: -2.5vh !important;
   }
 }
 

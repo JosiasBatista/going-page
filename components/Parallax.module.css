@@ -10,12 +10,20 @@
   height: 100vh;
   padding: 0;
   position: absolute;
-  
+  z-index: 100;
+}
+
+.parallaxBackground {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .backgroundImage {
   z-index: 100;
-  /* width: 100vw; */
+  width: 100vw;
   object-fit: fill;
   width: unset !important;
   height: unset !important;
