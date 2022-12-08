@@ -51,7 +51,7 @@ export default function ParallaxComponent() {
         />
       </Parallax>
 
-      <Parallax className={styles.parallaxBackground} speed={12.5}>
+      <Parallax className={styles.parallax} speed={12.5}>
         <Image
           priority
           src="/images/Layer6.svg"

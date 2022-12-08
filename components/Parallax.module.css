@@ -42,6 +42,7 @@
   background-size: auto 1038px;
   background-repeat: repeat-x;
   width: 100%;
+  position: relative;
 }
 
 .backgroundImageWater {
