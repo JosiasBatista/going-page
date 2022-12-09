@@ -1,13 +1,13 @@
 
 .pageHeader {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   position: relative;
 }
 
 .parallax {
   width: 100%;
-  height: 100vh;
+  min-height: 110vh;
   padding: 0;
   position: absolute;
   z-index: 100;
@@ -15,43 +15,39 @@
 
 .parallaxBackground {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   padding: 0;
+  top: 0;
   position: absolute;
-  z-index: -1;
+  z-index: -10;
 }
 
 .backgroundImage {
   z-index: 100;
-  width: 100vw;
-  object-fit: fill;
-  width: unset !important;
-  height: unset !important;
+  object-fit: cover !important;
+  /* width: unset !important;
+  height: unset !important; */
   background-position: bottom center;
   background-size: auto 1038px;
   background-repeat: repeat-x;
-  width: 100%;
 }
 
 .backgroundImageLogo {
   z-index: 100;
-  /* width: 100vw; */
   width: 100vw;
-  height: unset !important;
+  /* height: unset !important; */
   background-position: bottom center;
   background-size: auto 1038px;
   background-repeat: repeat-x;
-  width: 100%;
+  object-fit: cover !important;
   position: relative;
 }
 
 .backgroundImageWater {
   z-index: -1;
-  /* width: 100vw; */
-  width: unset !important;
-  height: unset !important;
+  position: fixed;
   background-position: bottom center;
   background-size: auto 1038px;
   background-repeat: repeat-x;
-  width: 100%;
+  object-fit: cover !important;
 }
