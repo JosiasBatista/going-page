@@ -16,11 +16,6 @@
   position: relative;
 }
 
-.featureCard:hover {
-  transform: scale(1.15);
-  border-bottom: 10px solid #FFB042;
-}
-
 .animationContainer {
   width: 75%;
   height: 20vh;
@@ -49,9 +44,27 @@
   transition: all .2s linear;
 }
 
-.featureCard:hover .featureDesc {
-  opacity: 1 !important;
-  height: auto;
+@media (hover: none) {
+  .featureCard {
+    transform: scale(1.1);
+    height: 100vw !important;
+    border-bottom: 10px solid #FFB042;
+  }
+  .featureCard .featureDesc {
+    opacity: 1 !important;
+    height: auto;
+  }
+}
+
+@media (hover: hover) {
+  .featureCard:hover {
+    transform: scale(1.1);
+    border-bottom: 10px solid #FFB042;
+  }
+  .featureCard:hover .featureDesc {
+    opacity: 1 !important;
+    height: auto;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -60,7 +73,7 @@
     height: auto;
     min-height: 40vw;
     transition: all .3s linear;
-    margin: 15px;
+    margin: 25px;
   }
 
   .featureCard:hover {
