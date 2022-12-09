@@ -47,7 +47,7 @@
 @media (hover: none) {
   .featureCard {
     transform: scale(1.1);
-    max-height: 40vh;
+    height: 100vw !important;
     border-bottom: 10px solid #FFB042;
   }
   .featureCard .featureDesc {
