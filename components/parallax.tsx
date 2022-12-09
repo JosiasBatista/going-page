@@ -6,7 +6,8 @@ import { Parallax } from 'react-scroll-parallax';
 export default function ParallaxComponent() {
   return (
     <div className={styles.pageHeader}>
-      <Parallax className={styles.parallaxBackground} speed={-20}>
+      
+      <Parallax className={styles.parallaxBackground} speed={0}>
         <Image
           priority
           src="/images/Layer9.svg"
@@ -16,6 +17,8 @@ export default function ParallaxComponent() {
           objectFit="contain"
         />
       </Parallax>
+
+      
       <Parallax className={styles.parallax} speed={-40}>
         <picture>
           <source
@@ -29,6 +32,7 @@ export default function ParallaxComponent() {
           />
         </picture>
       </Parallax>
+
       <Parallax className={styles.parallax} speed={-15}>
         <Image
           priority
@@ -50,7 +54,7 @@ export default function ParallaxComponent() {
           objectFit="contain"
         />
       </Parallax>
-
+      
       <Parallax className={styles.parallax} speed={12.5}>
         <Image
           priority
@@ -83,6 +87,7 @@ export default function ParallaxComponent() {
           objectFit="contain"
         />
       </Parallax>
+      
       
       <Parallax className={styles.parallax} speed={15}>
         <Image
