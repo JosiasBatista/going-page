@@ -27,6 +27,11 @@ export default function Home() {
         <div className={styles.pageRest}>
           <h1 className={styles.pageTitle}>Todos possuem um motivo para viajar. Então me diz, qual é o <b className={styles.boldTitle}>SEU?</b></h1>
           <span className={styles.pageSubtitle}>Independentemente do seu perfil de viajante, temos as funcionalidades certas para você</span>
+          
+          <p className={styles.appExplanation}>Surgirmos daquela dúvida que paira na mente dos viajantes... Quais atividades e lugares vou encontrar na minha próxima viagem?
+            <br/>
+            <span>Quando não se tem essa resposta... Estamos aqui, possibilitando que você:</span>
+          </p>
 
           <AppFeatures />
 

@@ -5,7 +5,10 @@ import styles from './AppCommunity.module.css';
 export default function AppCommunityDesc() {
   return (
     <div className={styles.pageSection}>
-      <span className={styles.sectionTitle}>Encontre outros amantes de viagem como você!</span>
+      <span className={styles.sectionTitle}>Encontre outros amantes de viagem.
+        <br/>
+        Faça parte dessa comunidade de viajantes como você!
+      </span>
 
       <div className={styles.communityDescCont}>
         <section className={`${styles.communityDesc} ${styles.firstDesc}`}>
