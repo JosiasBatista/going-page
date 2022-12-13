@@ -1,16 +1,12 @@
 import Head from 'next/head';
-import { FaGooglePlay } from 'react-icons/fa';
 import styles from '../styles/Home.module.css';
 import ParallaxComponent from '../components/parallax';
 
 import AppCommunityDesc from '../components/appCommunityDesc';
 import AppFeatures from '../components/appFeatures';
+import CallToAction from '../components/callToAction';
 
 export default function Home() {
-
-  const redirectToGooglePlay = () => {
-    window.location.assign('https://play.google.com/store/apps/details?id=com.going.goingapp')
-  }
 
   return (
     <div className={styles.container}>
@@ -32,16 +28,7 @@ export default function Home() {
 
           <AppCommunityDesc />
 
-          <section className={styles.callToDownload}>
-            <strong className={styles.callTitle}>Venha fazer parte!</strong>
-            <span className={styles.callSubtitle}>Faça o download agora</span>
-
-            <button className={styles.storeButton} onClick={() => redirectToGooglePlay()}>
-              <FaGooglePlay size={45} color="#179DC7" />
-            </button>
-
-            <span className={styles.soonText}>Em breve também na App Store</span>
-          </section>
+          <CallToAction />
         </div>
       </main>
     </div>

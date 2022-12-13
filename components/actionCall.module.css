@@ -1,0 +1,43 @@
+
+
+.callToDownload {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-image: linear-gradient(to bottom, #FFF, #FFF, #FFF, #179DC7);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
+}
+
+.callTitle {
+  font-family: 'Montserrat';
+  font-size: 32px;
+  color: #121212;
+}
+
+.callSubtitle {
+  font-family: 'Karla';
+  font-size: 24px;
+  color: #121212;
+  margin-top: 24px;
+}
+
+.soonText {
+  position: absolute;
+  font-size: 16px;
+  bottom: 20px;
+  width: 100%;
+  color: #303030;
+  text-align: center;
+  font-family: 'Karla';
+}
+
+.storeButton {
+  background: none;
+  border: none;
+  margin: 8px 0 40px;
+  cursor: pointer;
+}
