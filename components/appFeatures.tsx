@@ -25,6 +25,8 @@ export default function AppFeatures() {
 
   return (
     <>
+      <span className={styles.presentingSolution}>É por esses motivos que o Going disponibiliza várias funcionalidades para você:</span>
+      
       <div className={styles.appFeatCont} ref={featureCards}>
         <section className={styles.appFeatures}>
           <FeatureCard
