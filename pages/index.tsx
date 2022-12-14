@@ -42,7 +42,7 @@ export default function Home() {
             
             <div className={styles.clientIdentificationItem}>
               <strong>3.</strong>
-              <span>Quis relembrar detalhes de uma viagem que marcaram sua vida, mas não tem salvo todos os momentos daquela viagem</span>
+              <span>Quis relembrar detalhes de uma viagem que marcaram sua vida, mas nem todos os momentos dela estão salvos</span>
             </div>
           </section>
 
