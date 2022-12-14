@@ -25,17 +25,50 @@
 }
 
 .boldTitle {
-  font-weight: 900
+  font-weight: 900;
 }
 
 .pageSubtitle {
   color: #121212;
   font-size: 24px;
-  max-width: 40vw;
+  max-width: 50vw;
   text-align: center;
   font-weight: 400;
   font-family: 'Karla', sans-serif;
   margin-top: 1rem;
+}
+
+.clientIdentificationCont {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientIdentificationItem {
+  margin: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 65%;
+}
+
+.clientIdentificationItem strong {
+  font-size: 40px;
+  color: #179DC7;
+  display: block;
+  width: 40px;
+  margin-right: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.clientIdentificationItem span {
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  /* max-width: 60%; */
 }
 
 @media (max-width: 1600px) {
