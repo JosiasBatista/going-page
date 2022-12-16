@@ -1,13 +1,13 @@
 
 .pageHeader {
   width: 100%;
-  height: 110vh;
+  height: 120vh;
   position: relative;
 }
 
 .parallax {
   width: 100%;
-  min-height: 110vh;
+  min-height: 120vh;
   padding: 0;
   position: absolute;
   z-index: 100;
@@ -15,7 +15,7 @@
 
 .parallaxBackground {
   width: 100%;
-  height: 110vh;
+  height: 120vh;
   padding: 0;
   top: 0;
   position: absolute;
