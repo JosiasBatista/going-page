@@ -34,18 +34,21 @@ export default function AppFeatures() {
             title="Escreva Diários"
             description="Compartilhe suas jornadas através de diários.
             Compartilhe com o mundo em diários públicos ou guarde seus momentos em diários privados."
+            redirection="/diary"
           />
           <FeatureCard
             animation={FindDestination}
             title="Encontre Destinos"
             description="Encontre os melhores destinos seja qual for o tipo de viagem que você deseja fazer.
             Viagens em família, românticas ou sozinho, descubra o melhor lugar para tudo!"
+            redirection="/destinations"
           />
           <FeatureCard
             animation={DiscoverActivity}
             title="Descubra Atividades"
             description="Não sabe o que fazer nos lugares aonde você vai viajar?
             Descubra as melhores atividades e programe o que você irá fazer!"
+            redirection="/activities"
           />
 
         </section>

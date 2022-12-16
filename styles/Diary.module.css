@@ -1,0 +1,28 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageHeader {
+  width: 100%;
+  height: auto;
+  background-color: #179DC7;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  width: 50%
+}
+
+.pageTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 24px !important;
+  color: #303030;
+}

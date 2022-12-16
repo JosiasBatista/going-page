@@ -10,8 +10,8 @@ export default function CallToAction() {
   
   return (
     <section className={styles.callToDownload}>
-      <strong className={styles.callTitle}>Venha fazer parte!</strong>
-      <span className={styles.callSubtitle}>Faça o download agora</span>
+      <strong className={styles.callTitle}>Antes de ficar perdido na próxima viagem</strong>
+      <span className={styles.callSubtitle}>Faça o download agora!</span>
 
       <button className={styles.storeButton} onClick={() => redirectToGooglePlay()}>
         <FaGooglePlay size={45} color="#179DC7" />
