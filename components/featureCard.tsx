@@ -40,7 +40,8 @@ export default function FeatureCard(feature: Feature) {
       <strong className={styles.featureTitle}>{feature.title}</strong>
       <p className={styles.featureDesc}>{feature.description}</p>
 
-      <Link className={styles.seeMore} href={feature.redirection}>Ver mais</Link>
+      {/* TODO: FUTURE DEVELOPMENT */}
+      {/* <Link className={styles.seeMore} href={feature.redirection}>Ver mais</Link> */}
     </div>
   )
 }
