@@ -1,11 +1,13 @@
 import { useRef } from 'react';
 import styles from './Feature.module.css';
 import Lottie, { LottieRefCurrentProps } from "lottie-react";
+import Link from 'next/link';
 
 interface Feature {
   title: string,
   description: string,
-  animation: any
+  animation: any,
+  redirection: string
 }
 
 export default function FeatureCard(feature: Feature) {
@@ -37,6 +39,9 @@ export default function FeatureCard(feature: Feature) {
       </div>
       <strong className={styles.featureTitle}>{feature.title}</strong>
       <p className={styles.featureDesc}>{feature.description}</p>
+
+      {/* TODO: FUTURE DEVELOPMENT */}
+      {/* <Link className={styles.seeMore} href={feature.redirection}>Ver mais</Link> */}
     </div>
   )
 }

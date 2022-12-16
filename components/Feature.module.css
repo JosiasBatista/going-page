@@ -44,6 +44,18 @@
   transition: all .2s linear;
 }
 
+.seeMore {
+  width: 50%;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #FFF;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
 @media (hover: none) {
   .featureCard {
     transform: scale(1.1);
