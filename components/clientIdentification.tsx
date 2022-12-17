@@ -6,9 +6,9 @@ export default function ClientIdentification() {
     <>
       <span className={styles.pageSubtitle}>
         Todos nós amamos viajar, mas nem sempre o próximo destino de nossas vidas está claro.
-        Entre tantas opções e tantos lugares que vemos diariamente fica difícil decidir ou descobrir o lugar perfeito.
+        Entre tantas opções e tantos lugares que vemos diariamente, fica difícil decidir ou descobrir o lugar perfeito.
         <br />
-        <b>Assim como nós provavelmente você já se encontrou em alguma dessas situações:</b>
+        <b>Assim como nós, provavelmente você já se encontrou em alguma dessas situações:</b>
       </span>
 
       <section className={styles.clientIdentificationCont}>
