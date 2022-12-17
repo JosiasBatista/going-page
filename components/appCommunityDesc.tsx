@@ -5,7 +5,7 @@ import styles from './AppCommunity.module.css';
 export default function AppCommunityDesc() {
   return (
     <div className={styles.pageSection}>
-      <span className={styles.sectionTitle}>Além disso, a vida é melhor compartilhada!
+      <span className={styles.sectionTitle}>Além disso, a vida é melhor quando compartilhada!
         <br />
         E aqui você pode fazer parte de uma comunidade repleta de amantes de viagem, como você.
       </span>
